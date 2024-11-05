@@ -1,4 +1,4 @@
-# **Python Basics for ArtFusion**
+# **Python Basics and Introduction to Machine Learning**
 
 This week, we will cover essential Python topics and an introduction to machine learning concepts that are crucial for our project on neural style transfer. This material is designed for those new to Python and those looking to brush up on their skills.
 
