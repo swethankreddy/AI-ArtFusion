@@ -37,13 +37,13 @@ Understanding operators is crucial for manipulating data:
 - Check out [Python Operators](https://www.geeksforgeeks.org/python-operators/?ref=lbp) for a detailed overview.
   
 ## **Functions**
-Functions are essential for structuring code. Learn about them in [this notebook](https://github.com/shoryasethia/Virtual_Notepad/blob/main/Week1/Content/Classes.ipynb).
+Functions are essential for structuring code. Learn about them in [this notebook](https://github.com/swethankreddy/AI-ArtFusion/blob/main/Week%201/Content/Classes.ipynb).
 
 ## **Conditions and Loops**
 These concepts are core to programming. Learn more about [Conditions](https://www.learnpython.org/en/Conditions) and [Loops](https://www.learnpython.org/en/Loops).
 
 ## **Classes and Objects**
-Understand the basics of object-oriented programming. Visit [this notebook](https://github.com/shoryasethia/Virtual_Notepad/blob/main/Week1/Content/Classes.ipynb) for a detailed explanation.
+Understand the basics of object-oriented programming. Visit [this notebook](https://github.com/swethankreddy/AI-ArtFusion/blob/main/Week%201/Content/Classes.ipynb) for a detailed explanation.
 
 ## **Introduction to Machine Learning**
 In this section, we will briefly explore the fundamentals of machine learning, which will be critical for the **ArtFusion** project.
