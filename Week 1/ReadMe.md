@@ -24,7 +24,7 @@ Jupyter Notebook is widely used for interactive programming. You can learn how t
 Familiarize yourself with these essential Python libraries for data analysis:
 - **Numpy**: [Introduction to Numpy](https://github.com/shoryasethia/Virtual_Notepad/blob/main/Week1/Content/numpy.ipynb)
 - **Pandas**: [Introduction to Pandas](https://github.com/shoryasethia/Virtual_Notepad/blob/main/Week1/Content/pandas.ipynb)
-- **Matplotlib**: Useful for data visualization; see [this notebook](https://github.com/shoryasethia/Virtual_Notepad/blob/main/Week1/Content/Matplotlib.ipynb).
+- **Matplotlib**: Useful for data visualization; see [this notebook](https://github.com/swethankreddy/AI-ArtFusion/blob/main/Week%201/Content/Matplotlib.ipynb).
 
 ## **Introduction to Data Types and Data Structures**
 Learn about the following data types and structures, which are fundamental in Python:
