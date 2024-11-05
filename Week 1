@@ -1,1 +1,76 @@
+# Week 1: Introduction to OpenCV and Basic Image Processing
+
+## Learning Objectives
+- Understand the basic functionalities of OpenCV for image manipulation.
+
+## Resources
+1. **OpenCV Installation**:
+   - Install OpenCV using pip:
+     ```
+     pip install opencv-python
+     ```
+
+2. **OpenCV Documentation**:
+   - [OpenCV Python Tutorials](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html): Comprehensive tutorials covering various image processing techniques.
+
+3. **Basic Python Programming**:
+   - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/): An introductory book for Python beginners.
+   - [W3Schools Python Tutorial](https://www.w3schools.com/python/): Great for brushing up on Python basics.
+
+## Assignments
+### Assignment 1: Load and Display an Image
+- **Task**: Write a Python script using OpenCV to load an image from your computer and display it in a window.
+- **Goal**: Understand how to handle image files in OpenCV.
+- **Sample Code**:
+    ```python
+    import cv2
+
+    # Load an image
+    image = cv2.imread('path/to/your/image.jpg')
+
+    # Display the image
+    cv2.imshow('Loaded Image', image)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+    ```
+
+### Assignment 2: Basic Image Manipulations
+- **Task**: Experiment with basic image transformations such as resizing, rotating, and converting to grayscale.
+- **Goal**: Familiarize yourself with common image processing tasks.
+- **Sample Code**:
+    ```python
+    # Resize the image
+    resized_image = cv2.resize(image, (300, 300))
+
+    # Rotate the image (90 degrees)
+    rotated_image = cv2.rotate(image, cv2.ROTATE_90_CLOCKWISE)
+
+    # Convert to grayscale
+    gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+    # Display results
+    cv2.imshow('Resized Image', resized_image)
+    cv2.imshow('Rotated Image', rotated_image)
+    cv2.imshow('Grayscale Image', gray_image)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+    ```
+
+### Assignment 3: Apply Image Filters
+- **Task**: Use OpenCV to apply filters such as Gaussian blur and edge detection (Canny).
+- **Goal**: Understand how filters affect image quality and characteristics.
+- **Sample Code**:
+    ```python
+    # Apply Gaussian blur
+    blurred_image = cv2.GaussianBlur(image, (5, 5), 0)
+
+    # Apply Canny edge detection
+    edges = cv2.Canny(image, 100, 200)
+
+    # Display filtered images
+    cv2.imshow('Blurred Image', blurred_image)
+    cv2.imshow('Edges', edges)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+    ```
 
