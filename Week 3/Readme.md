@@ -3,7 +3,6 @@
 ## Overview
 In this week, you will:
 - Learn about neural style transfer (NST) and how it blends the style of one image with the content of another.
-- Build and train your own neural style transfer model.
 - Experiment with different parameters, such as content and style weights, to understand their impact on the output image.
 - Complete an assignment to analyze how these parameters affect your results.
 
