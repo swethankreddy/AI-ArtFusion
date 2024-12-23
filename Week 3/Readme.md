@@ -11,7 +11,7 @@ This week’s objective is to give you hands-on experience with implementing and
 ## Objectives
 - **Build a neural style transfer model**: Implement a model that can combine the content of one image and the style of another.
 - **Experiment with parameters**: Vary the content and style weights and observe how they influence the generated image.
-- **Batch processing**: Learn how to process multiple images at once using your model.
+
 - **Parameter analysis**: Analyze and document the effects of different parameter combinations (style and content weights) on the output.
 
 ## Prerequisites
